@@ -18,5 +18,28 @@ body {
   background-color: #353535;
   font-family: Helvetica;
 }
+body #bgRef {
+  background-image: url("img/accueil.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 2059px;
+  position: absolute;
+  top: 0;
+  opacity: 0.3;
+  z-index: 20;
+}
+body .container-fluid {
+  padding: 0;
+}
+body #myHeader {
+  background-color: black;
+}
+body #myHeader .container .navbar-brand,
+body #myHeader .container.navbar-expand-lg .navbar-nav .nav-item .nav-link {
+  color: white;
+  font-size: 1.25rem;
+}
 
 /*# sourceMappingURL=style.css.map */
