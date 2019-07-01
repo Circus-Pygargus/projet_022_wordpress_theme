@@ -17,10 +17,98 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
 }
 
 body {
-    background-color: #353535;
     font-family: Helvetica;
+
+    #myHeader {
+        background-color: black;
+
+        nav {
+
+            div.row {
+              /*  margin-left: 0; */
+                align-items: center;
+            }
+        }
+
+        .container .navbar-brand {
+            padding-right: 15px;
+            padding-left: 15px;
+        }
+
+        .container .navbar-brand,
+        .container.navbar-expand-lg .navbar-nav .nav-item .nav-link {
+            color: #efefef;
+            font-size: 1.25rem;
+        } 
+    }
+
+    .container-fluid {
+        padding: 0;
+    }
+
+    #carousel_section {
+        background-color: #353535;
+    }
+
+    #contact_section {
+        background-color: #efefef;
+        color: #353535;
+        padding: 50px 0;
+
+        .container {
+            #taxo_links {
+                text-align: center;
+            }
+            .row {
+                .home-category-link_div {
+
+                }
+
+                #contact-mother-div {
+                    padding-right: 35px;    
+
+                    #contact-form {
+                        height: 350px;
+
+                        form {
+
+                            .form-group {
+
+                                .form-control {
+                                    background-color: #353535;
+                                    color: #efefef;
+                                }
+                            }
+                        }
+                    }
+                }
+                
+
+                #map-mother-div {
+                    padding-left: 35px;
+
+                    #leaflet-map {
+                        /* width: 100%; */
+                        height: 350px;
+                    }
+                }
+            }
+        }
+    }
+
+    footer {
+        height: 100px;
+        background-color: black;
+        color: #efefef;
+        text-align: center;  
+        padding-top: 40px;
+    }
+}
+
+
+
     
-        
+   /*     
     #bgRef {
         background-image: url('img/accueil.jpg');
         background-position: center;
@@ -33,19 +121,4 @@ body {
         opacity: 0.3;
         z-index: 20;
     }
-
-
-    .container-fluid {
-        padding: 0;
-    }
-
-    #myHeader {
-        background-color: black;
-
-        .container .navbar-brand,
-        .container.navbar-expand-lg .navbar-nav .nav-item .nav-link {
-            color: white;
-            font-size: 1.25rem;
-        } 
-    }
-}
+*/

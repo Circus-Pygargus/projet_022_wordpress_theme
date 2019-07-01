@@ -1,6 +1,4 @@
-
-
-    <?php wp_header(); ?>
+<?php get_header(); ?>
     <main>
         <!-- carousel -->
         <section id="carouselSection" class="container-fluid">
@@ -55,4 +53,4 @@
     <div id="bgRef"></div>  -->
 
     <!-- emplacement de chargement des fichiers scripts -->
-    <?php wp_footer(); ?>
+    <?php get_footer(); ?>
